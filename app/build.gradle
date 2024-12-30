@@ -1,0 +1,114 @@
+apply plugin: 'com.android.application'
+apply plugin: 'kotlin-android'
+
+android {
+    compileSdkVersion 34
+
+    defaultConfig {
+        applicationId "it.unibo.sistemidigitali.app"
+        minSdkVersion 21
+        multiDexEnabled true
+        targetSdkVersion 34
+
+        versionCode 11
+        versionName "1.11"
+        vectorDrawables.useSupportLibrary = true
+        setProperty("archivesBaseName", "street-sign-helper")
+    }
+    buildTypes {
+        proguard {
+            debuggable false
+            minifyEnabled true
+            shrinkResources true
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro', 'proguard.cfg'
+        }
+        release {
+            minifyEnabled true
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+        debug {
+            isDefault true
+            minifyEnabled false
+            proguardFiles 'proguard-rules.pro'
+        }
+        testBuildType "debug"
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_17
+        targetCompatibility JavaVersion.VERSION_17
+    }
+
+    kotlinOptions {
+        jvmTarget = "17" // Imposta una versione stabile e supportata
+    }
+
+    namespace 'it.unibo.sistemidigitali.app'
+    androidResources {
+        noCompress 'tflite'
+    }
+// Do NOT compress tflite model files (need to call out to developers!)
+}
+
+repositories {
+    // Depending on AndroidX Snapshot Builds to get the latest CameraX libs.
+    maven { url 'https://androidx.dev/snapshots/builds/6787662/artifacts/repository/' }
+}
+
+dependencies {
+    implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
+    implementation 'androidx.multidex:multidex:2.0.1'
+
+        // Image labeling
+    implementation 'com.google.mlkit:image-labeling:17.0.9'
+    // Or comment the dependency above and uncomment the dependency below to
+    // use unbundled model that depends on Google Play Services
+    // implementation 'com.google.android.gms:play-services-mlkit-image-labeling:16.0.8'
+
+    // Image labeling custom
+    implementation 'com.google.mlkit:image-labeling-custom:17.0.3'
+    // Or comment the dependency above and uncomment the dependency below to
+    // use unbundled model that depends on Google Play Services
+    // implementation 'com.google.android.gms:play-services-mlkit-image-labeling-custom:16.0.0-beta5'
+
+
+
+    // -------------------------------------------------------
+
+    implementation 'com.google.code.gson:gson:2.10.1'
+    implementation 'com.google.guava:guava:29.0-android'
+    implementation 'com.google.android.material:material:1.12.0'
+    implementation 'androidx.activity:activity:1.9.3'
+
+    // For how to setup gradle dependencies in Android X, see:
+    // https://developer.android.com/training/testing/set-up-project#gradle-dependencies
+    // Core library
+    androidTestImplementation 'androidx.test:core:1.6.1'
+
+    // AndroidJUnitRunner and JUnit Rules
+    androidTestImplementation 'androidx.test:runner:1.6.2'
+    androidTestImplementation 'androidx.test:rules:1.6.1'
+
+    // Assertions
+    androidTestImplementation 'androidx.test.ext:junit:1.2.1'
+
+    // ViewModel and LiveData
+    implementation "androidx.lifecycle:lifecycle-livedata-ktx:2.8.7"
+    implementation "androidx.lifecycle:lifecycle-viewmodel-ktx:2.8.7"
+
+    implementation 'androidx.appcompat:appcompat:1.7.0'
+    implementation 'androidx.annotation:annotation:1.9.1'
+    implementation 'androidx.constraintlayout:constraintlayout:2.2.0'
+
+    // CameraX
+    implementation "androidx.camera:camera-camera2:1.4.0"
+    implementation "androidx.camera:camera-lifecycle:1.4.0"
+    implementation "androidx.camera:camera-view:1.4.0"
+
+}
+
+configurations {
+    // Resolves dependency conflict caused by some dependencies use
+    // com.google.guava:guava and com.google.guava:listenablefuture together.
+    all*.exclude group: 'com.google.guava', module: 'listenablefuture'
+}

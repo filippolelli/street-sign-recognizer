@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name" translatable="false">StreetSignHelper</string>
+
+    <string name="ok" translatable="false">OK</string>
+    <string name="permission_camera_rationale" translatable="false">Access to the camera is needed for detection</string>
+    <string name="no_camera_permission" translatable="false">This application cannot run because it does not have the camera permission.  The application will now exit.</string>
+
+    <string name="select_image" translatable="false">Select image</string>
+    <string name="toggle_torch" translatable="false">Enable torch</string>
+    <string name="take_photo" translatable="false">Take photo</string>
+
+    <string name="custom_object_detection" translatable="false">Custom Object Detector</string>
+
+    <string name="stop">STOP \n\nIl cartello di stop è un segnale che obbliga tutti i veicoli a fermarsi completamente prima di proseguire. Il conducente deve fermarsi al limite della strada o in prossimità del segnale, valutare attentamente la situazione e dare la precedenza a tutti i veicoli che transitano sulla strada principale o incrociata.</string>
+
+    <string name="precedenza">DOVERE DI PRECEDENZA \n\nIl cartello di precedenza diritto indica che i veicoli in arrivo dalla strada principale hanno la precedenza. I veicoli che si immettono dalla strada laterale devono dare la precedenza, fermandosi se necessario, per non interferire con il traffico proveniente dalla strada principale. Tuttavia, la sicurezza è fondamentale, quindi bisogna prestare sempre attenzione.</string>
+
+    <string name="divieto_sosta">DIVIETO DI SOSTA \n\nIl cartello di divieto di sosta vieta ai veicoli di fermarsi o parcheggiare in quella zona. Questa misura è necessaria per garantire la sicurezza e il buon flusso del traffico, nonché per evitare intralci o danni a veicoli e pedoni. Il parcheggio in un\'area contrassegnata dal divieto di sosta comporta una multa e il rischio che il veicolo venga rimosso.</string>
+
+    <string name="divieto_accesso">DIVIETO DI ACCESSO \n\nIl cartello di divieto di accesso indica che non è permesso entrare in una determinata strada o area. Questo segnale viene utilizzato per limitare l\'accesso a zone riservate, come aree pedonali, strade private o zone con restrizioni di traffico. I veicoli non possono proseguire oltre il punto in cui è presente il segnale, a meno che non ci siano altre indicazioni che lo permettano.</string>
+
+    <string name="attraversamento">ATTRAVERSAMENTO \n\nIl cartello di attraversamento pedonale indica una zona della strada in cui i pedoni hanno la priorità. I veicoli devono fermarsi e consentire il passaggio sicuro delle persone sulle strisce pedonali, rispettando il diritto di attraversamento dei pedoni. Questo cartello è molto importante per la sicurezza dei pedoni, soprattutto in zone di alta affluenza.</string>
+
+    <string name="rotatoria">ROTATORIA \n\nIl cartello di rotatoria segnala l\'inizio di una rotonda, un incrocio circolare dove i veicoli devono girare in senso orario. I veicoli che si trovano già nella rotonda hanno la precedenza su quelli che vi si immettono, e devono continuare a girare fino a uscire. È importante segnalare la propria direzione con le frecce e procedere con prudenza, considerando che l\'ingresso e l\'uscita dalla rotatoria possono essere pericolosi se non rispettati i limiti di velocità e la segnaletica.</string>
+
+</resources>

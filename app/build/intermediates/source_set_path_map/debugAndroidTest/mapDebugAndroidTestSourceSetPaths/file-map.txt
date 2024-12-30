@@ -1,0 +1,6 @@
+it.unibo.sistemidigitali.app.test.app-jetified-tracing-1.2.0-0 C:\Users\filo0\.gradle\caches\8.9\transforms\753bb30d918edbb77e1751b503ff90bc\transformed\jetified-tracing-1.2.0\res
+it.unibo.sistemidigitali.app.test.app-jetified-core-1.6.1-1 C:\Users\filo0\.gradle\caches\8.9\transforms\fba83d69f340ff12e377da44b448122e\transformed\jetified-core-1.6.1\res
+it.unibo.sistemidigitali.app.test.app-androidTest-2 C:\Users\filo0\Documents\AndroidStudio\StreetSignHelper\app\build\generated\res\resValues\androidTest\debug
+it.unibo.sistemidigitali.app.test.app-mergeDebugAndroidTestResources-3 C:\Users\filo0\Documents\AndroidStudio\StreetSignHelper\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\merged.dir
+it.unibo.sistemidigitali.app.test.app-mergeDebugAndroidTestResources-4 C:\Users\filo0\Documents\AndroidStudio\StreetSignHelper\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\stripped.dir
+it.unibo.sistemidigitali.app.test.app-debugAndroidTest-5 C:\Users\filo0\Documents\AndroidStudio\StreetSignHelper\app\build\intermediates\merged_res\debugAndroidTest\mergeDebugAndroidTestResources

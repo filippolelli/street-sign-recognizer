@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#4CAF50</color>
+    <color name="colorPrimaryDark">#388E3C</color>
+    <color name="colorAccent">#7C4DFF</color>
+
+    <color name="blue_grey_400">#78909C</color>
+    <color name="light_grey_400">#E6E6E6</color>
+    <color name="light_green_700">#689F38</color>
+    <color name="gray">#BFBFBF</color>
+    <color name="white">#FFFFFF</color>
+    <color name="blue">#4286f4</color>
+    <color name="red">#f44242</color>
+    <color name="ic_launcher_foreground">#cc3b3b</color>
+    <color name="ic_launcher_background">#FFFFFF</color>
+    <color name="light_blue_400">#FF29B6F6</color>
+    <color name="light_blue_600">#FF039BE5</color>
+    <color name="gray_400">#FFBDBDBD</color>
+    <color name="gray_600">#FF757575</color>
+</resources>

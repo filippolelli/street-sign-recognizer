@@ -1,0 +1,110 @@
+[
+    {
+        "merged": "it.unibo.sistemidigitali.app-debug-43:/mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "it.unibo.sistemidigitali.app-main-45:/mipmap-mdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "it.unibo.sistemidigitali.app-debug-43:/drawable_torch_on.xml.flat",
+        "source": "it.unibo.sistemidigitali.app-main-45:/drawable/torch_on.xml"
+    },
+    {
+        "merged": "it.unibo.sistemidigitali.app-debug-43:/layout_activity_crop_photo.xml.flat",
+        "source": "it.unibo.sistemidigitali.app-main-45:/layout/activity_crop_photo.xml"
+    },
+    {
+        "merged": "it.unibo.sistemidigitali.app-debug-43:/mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "it.unibo.sistemidigitali.app-main-45:/mipmap-xxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "it.unibo.sistemidigitali.app-debug-43:/drawable_classify.xml.flat",
+        "source": "it.unibo.sistemidigitali.app-main-45:/drawable/classify.xml"
+    },
+    {
+        "merged": "it.unibo.sistemidigitali.app-debug-43:/mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "it.unibo.sistemidigitali.app-main-45:/mipmap-xhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "it.unibo.sistemidigitali.app-debug-43:/drawable_camera.xml.flat",
+        "source": "it.unibo.sistemidigitali.app-main-45:/drawable/camera.xml"
+    },
+    {
+        "merged": "it.unibo.sistemidigitali.app-debug-43:/mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "it.unibo.sistemidigitali.app-main-45:/mipmap-xxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "it.unibo.sistemidigitali.app-debug-43:/layout_activity_take_photo.xml.flat",
+        "source": "it.unibo.sistemidigitali.app-main-45:/layout/activity_take_photo.xml"
+    },
+    {
+        "merged": "it.unibo.sistemidigitali.app-debug-43:/drawable_divieto_sosta.xml.flat",
+        "source": "it.unibo.sistemidigitali.app-main-45:/drawable/divieto_sosta.xml"
+    },
+    {
+        "merged": "it.unibo.sistemidigitali.app-debug-43:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "it.unibo.sistemidigitali.app-main-45:/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "it.unibo.sistemidigitali.app-debug-43:/drawable_stop.xml.flat",
+        "source": "it.unibo.sistemidigitali.app-main-45:/drawable/stop.xml"
+    },
+    {
+        "merged": "it.unibo.sistemidigitali.app-debug-43:/drawable_torch_off.xml.flat",
+        "source": "it.unibo.sistemidigitali.app-main-45:/drawable/torch_off.xml"
+    },
+    {
+        "merged": "it.unibo.sistemidigitali.app-debug-43:/drawable_attraversamento.xml.flat",
+        "source": "it.unibo.sistemidigitali.app-main-45:/drawable/attraversamento.xml"
+    },
+    {
+        "merged": "it.unibo.sistemidigitali.app-debug-43:/mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "it.unibo.sistemidigitali.app-main-45:/mipmap-xxxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "it.unibo.sistemidigitali.app-debug-43:/mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "it.unibo.sistemidigitali.app-main-45:/mipmap-xxxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "it.unibo.sistemidigitali.app-debug-43:/mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "it.unibo.sistemidigitali.app-main-45:/mipmap-xhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "it.unibo.sistemidigitali.app-debug-43:/mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "it.unibo.sistemidigitali.app-main-45:/mipmap-hdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "it.unibo.sistemidigitali.app-debug-43:/drawable_divieto_accesso.xml.flat",
+        "source": "it.unibo.sistemidigitali.app-main-45:/drawable/divieto_accesso.xml"
+    },
+    {
+        "merged": "it.unibo.sistemidigitali.app-debug-43:/mipmap-mdpi_ic_launcher.png.flat",
+        "source": "it.unibo.sistemidigitali.app-main-45:/mipmap-mdpi/ic_launcher.png"
+    },
+    {
+        "merged": "it.unibo.sistemidigitali.app-debug-43:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "it.unibo.sistemidigitali.app-main-45:/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "it.unibo.sistemidigitali.app-debug-43:/layout_activity_sign_explanation.xml.flat",
+        "source": "it.unibo.sistemidigitali.app-main-45:/layout/activity_sign_explanation.xml"
+    },
+    {
+        "merged": "it.unibo.sistemidigitali.app-debug-43:/mipmap-hdpi_ic_launcher.png.flat",
+        "source": "it.unibo.sistemidigitali.app-main-45:/mipmap-hdpi/ic_launcher.png"
+    },
+    {
+        "merged": "it.unibo.sistemidigitali.app-debug-43:/drawable_gallery.xml.flat",
+        "source": "it.unibo.sistemidigitali.app-main-45:/drawable/gallery.xml"
+    },
+    {
+        "merged": "it.unibo.sistemidigitali.app-debug-43:/drawable_ic_launcher_foreground.xml.flat",
+        "source": "it.unibo.sistemidigitali.app-main-45:/drawable/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "it.unibo.sistemidigitali.app-debug-43:/drawable_rotatoria.xml.flat",
+        "source": "it.unibo.sistemidigitali.app-main-45:/drawable/rotatoria.xml"
+    },
+    {
+        "merged": "it.unibo.sistemidigitali.app-debug-43:/drawable_precedenza.xml.flat",
+        "source": "it.unibo.sistemidigitali.app-main-45:/drawable/precedenza.xml"
+    }
+]
